@@ -1,0 +1,32 @@
+/* We are primarily using styled-jsx in App.jsx for specific component scoping 
+   and easy copy-pasting, but this file ensures base Tailwind resets 
+   and specific utility overrides are available if needed.
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #0f0f0f; /* Fallback */
+  }
+}
+
+/* Custom Scrollbar for a premium feel */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1c1c1c; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333; 
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #f7931e; 
+}
