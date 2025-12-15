@@ -5,7 +5,7 @@ The project demonstrates **JWT authentication, role-based access, inventory logi
 
 This project is built as part of a **Sweet Shop Management System Kata**, with focus on **clean code, TDD mindset, and responsible AI usage**.
 
-To checkvthe website visit - https://sweet-shop-frontend-pied.vercel.app/admin
+To check the website visit - https://sweet-shop-frontend-pied.vercel.app/admin
 
 ---
 
